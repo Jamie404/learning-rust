@@ -8,6 +8,11 @@ on:
         branches:
             - main
 
+defaults:
+  run:
+    working-directory: hello-world
+
+
 jobs:
     build:
         runs-on: ubuntu-latest
