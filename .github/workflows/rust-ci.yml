@@ -10,7 +10,7 @@ on:
 
 defaults:
   run:
-    working-directory: hello-world
+    working-directory: guessing-game
 
 
 jobs:
@@ -19,7 +19,7 @@ jobs:
 
         steps:
             - name: Set up Rust
-              uses: actions/checkout@v4
+              uses: actions/checkout@v2
             - name: Install cargo-audit
               run: cargo install cargo-audit
             - name: Build
