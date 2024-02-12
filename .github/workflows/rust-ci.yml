@@ -10,7 +10,7 @@ on:
 
 defaults:
   run:
-    working-directory: guessing_game
+    working-directory: variables
 
 
 jobs:
