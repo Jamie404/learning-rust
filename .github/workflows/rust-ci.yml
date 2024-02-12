@@ -10,7 +10,7 @@ on:
 
 defaults:
   run:
-    working-directory: variables
+    working-directory: arrays
 
 
 jobs:
